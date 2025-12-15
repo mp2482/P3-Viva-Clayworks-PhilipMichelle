@@ -49,8 +49,6 @@ h3 {
 }
 
 
-
-
 .menu {
 	display: flex;
 	justify-content: center;
@@ -65,7 +63,7 @@ h3 {
 	margin: 0px;
 	background-color: #3C3C3C;
 	border-radius: 9px;
-	padding: 0px 20px;
+	padding: 15px 30px;
 }
 
 /* -----TEXT LAYOUT------ */
@@ -122,6 +120,19 @@ nav ul {
 	text-decoration: underline;
 }
 
+.hamburger {
+	width: 30px;
+	height: 20px;
+	display: none;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.line {
+	width: 100%;
+	height: 2px;
+	background-color: #EFE7DB;
+}
 .breadcrumb {
 	position: absolute;
 	top: 18px;
