@@ -1,12 +1,83 @@
+body {
+	font-family: "PT Sans", sans-serif;
+	color: #514943;
+	background-color: #EFE7DC;
+}
+
+main {
+	overflow: hidden;
+}
+
+/* ----BACKGROUNDS---- */
+
+.background-forest {
+	background-color: #0C301E;
+}
+
+.background-wheat {
+	background-color: #EFE7DC;
+}
+
+/* -----TEXT MODIFIERS------ */
+h1 {
+	color: #F8F6F3;
+	font-size: 75px;
+	line-height: 145%;
+	letter-spacing: 0px;
+	margin-top: 0px;
+}
+
+h2 {
+	color: #3C3C3C;
+	font-size: 50px;
+	line-height: 145%;
+	letter-spacing: 0px;
+	margin-top: 0px;
+	margin-bottom: 16px;
+
+}
+
+h3 {
+	color: # #3C3C3C;
+	font-size: 29px;
+	font-weight: 700;
+	line-height: 120%;
+	letter-spacing: 0px;
+	margin-top: 0px;
+	margin-bottom: 16px;
+
+}
+
+
+
+
+/* -----TEXT LAYOUT------ */
+.text-center {
+	text-align: center;
+}
+
+.list-no-bullets {
+	list-style: none;
+	padding-left: 0px;
+}
+
+
+/* TEXT COLOUR */
+
+.text-white {
+	color: #f8f6f3;
+}
+
+
 /* Navigation */
 
 header {
-	background-color: #0M6R9Q;
+	background-color: #0C301E;
 	padding: 16px 4%;
 }
 
 .nav-link {
-	color: #ffffff;
+	color: #f8f6f3;
 	text-decoration: none;
 }
 
@@ -18,7 +89,7 @@ nav li {
 nav ul {
 	display: flex;
 	justify-content: center;
-	gap: 16px;
+	gap: 25px;
 	padding-left: 0px;
 }
 
@@ -27,4 +98,68 @@ nav ul {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	gap: 55px;
+}
+
+.nav-link-hover {
+	text-decoration: underline;
+}
+
+.menu {
+	display: flex;
+	justify-content: center;
+	flex-grow: 1;
+}
+
+.segment {
+	display: flex;
+	justify-content: center;
+	gap: 85px;
+	padding-left: 0px;
+	margin: 0px;
+	background-color: #3C3C3C;
+	border-radius: 9px;
+	padding: 15px 30px;
+}
+.hamburger {
+	width: 30px;
+	height: 20px;
+	display: none;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.line {
+	width: 100%;
+	height: 2px;
+	background-color: #EFE7DB;
+}
+.breadcrumb {
+	position: absolute;
+	top: 18px;
+	left: 18px;
+	color: #f8f6f3e;
+	text-decoration: none;
+	opacity: 0.9;
+	z-index: 2;
+}
+
+/* BUTTONS */
+
+.button {
+	display: inline-flex;
+	align-items: center
+	gap: 15px;
+	color: #F8F6F3;
+	padding: 10px 18px;
+	background-color: #C26A4B;
+	text-decoration: none;
+	font-weight: bold;
+	transition: background 0.2s ease;
+	border: none;
+	border-radius: 12px;
+}
+
+.button:hover {
+	background-color: #E6C27A;
 }
