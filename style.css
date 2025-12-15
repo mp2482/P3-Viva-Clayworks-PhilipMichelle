@@ -48,6 +48,26 @@ h3 {
 
 }
 
+
+
+
+.menu {
+	display: flex;
+	justify-content: center;
+}
+
+
+.segment {
+	display: flex;
+	justify-content: center;
+	gap: 32px;
+	padding-left: 0px;
+	margin: 0px;
+	background-color: #3C3C3C;
+	border-radius: 9px;
+	padding: 12px 28px;
+}
+
 /* -----TEXT LAYOUT------ */
 .text-center {
 	text-align: center;
