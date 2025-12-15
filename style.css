@@ -1,0 +1,26 @@
+/* Navigation */
+
+header {
+	background-color: #0C301E;
+	padding: 16px 4%;
+}
+
+
+nav li {
+	list-style: none;
+	padding-left: 0px;
+}
+
+nav ul {
+	display: flex;
+	justify-content: center;
+	gap: 16px;
+	padding-left: 0px;
+}
+
+.nav-wrap {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
