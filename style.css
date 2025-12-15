@@ -85,6 +85,8 @@ header {
 }
 
 .nav-link {
+	display: block;
+    padding: 10px 0;
 	color: #f8f6f3;
 	text-decoration: none;
 }
@@ -106,6 +108,8 @@ nav ul {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	max-width: 728px;
+	margin: 0 auto;
 	gap: 55px;
 }
 
@@ -116,14 +120,15 @@ nav ul {
 .menu {
 	display: flex;
 	justify-content: center;
-	flex-grow: 1;
+	width: 100%
 }
 
 .segment {
+	 width: 100%;
+	max-width: 696px;
 	display: flex;
-	justify-content: center;
-	gap: 85px;
-	padding-left: 0px;
+	justify-content: space-between;
+	gap: 0;
 	margin: 0px;
 	background-color: #3C3C3C;
 	border-radius: 9px;
