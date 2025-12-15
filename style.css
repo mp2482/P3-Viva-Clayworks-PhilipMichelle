@@ -5,6 +5,10 @@ header {
 	padding: 16px 4%;
 }
 
+.nav-link {
+	color: #ffffff;
+	text-decoration: none;
+}
 
 nav li {
 	list-style: none;
