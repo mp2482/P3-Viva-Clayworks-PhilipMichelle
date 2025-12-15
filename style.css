@@ -4,7 +4,44 @@ body {
 	background-color: #EFE7DC;
 }
 
+main {
+	overflow: hidden;
+}
 
+/* ----BACKGROUNDS---- */
+
+.background-forest {
+	background-color: #0C301E;
+}
+
+.background-wheat {
+	background-color: #EFE7DC;
+}
+
+/* -----TEXT MODIFIERS------ */
+h1 {
+	color: #F8F6F3;
+	font-size: 75px;
+	line-height: 145%;
+	letter-spacing: -2px;
+}
+
+/* -----TEXT LAYOUT------ */
+.text-center {
+	text-align: center;
+}
+
+.list-no-bullets {
+	list-style: none;
+	padding-left: 0px;
+}
+
+
+/* TEXT COLOUR */
+
+.text-white {
+	color: #f8f6f3;
+}
 
 
 /* Navigation */
@@ -48,8 +85,4 @@ nav ul {
 	z-index: 2;
 }
 
-/* Text Colour */
 
-.text-white {
-	color: #f8f6f3;
-}
