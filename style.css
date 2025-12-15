@@ -37,3 +37,9 @@ nav ul {
 	justify-content: space-between;
 	align-items: center;
 }
+
+/* Text Colour */
+
+.text-white {
+	color: #f8f6f3;
+}
