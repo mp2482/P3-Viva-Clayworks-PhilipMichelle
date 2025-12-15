@@ -145,15 +145,19 @@ nav ul {
 }
 
 /* BUTTONS */
+
 .button {
 	display: inline-flex;
-	color: white;
+	align-items: center
+	gap: 15px;
+	color: #F8F6F3;
 	padding: 10px 18px;
-	background-color: #D2A751;
+	background-color: #C26A4B;
 	text-decoration: none;
 	font-weight: bold;
 	transition: background 0.2s ease;
 	border: none;
+	border-radius: 12px;
 }
 
 .button:hover {
