@@ -38,6 +38,16 @@ nav ul {
 	align-items: center;
 }
 
+.breadcrumb {
+	position: absolute;
+	top: 18px;
+	left: 18px;
+	color: #f8f6f3e;
+	text-decoration: none;
+	opacity: 0.9;
+	z-index: 2;
+}
+
 /* Text Colour */
 
 .text-white {
