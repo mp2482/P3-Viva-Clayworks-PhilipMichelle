@@ -217,11 +217,22 @@ header {
 	position: absolute;
 	top: 18px;
 	left: 18px;
-	color: #F8F6F3;
 	text-decoration: none;
 	z-index: 2;
+	padding: 20px 16px;
+  	list-style: none;
+  	display: inline-flex;
 }
 
+.breadcrumb-li {
+  	font-size: 18px;
+  	color: #F8F6F3;
+  	padding-right: 5px;
+  	padding-left: 5px;
+}
+
+
+  
 
 .hero-card {
 	position: absolute;
