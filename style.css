@@ -69,8 +69,7 @@ p {
 .mission-text {
 	font-size: 20px;
 	line-height: 145%;
-	margin-bottom: 18px;
-	text-align: center;
+	text-align: left;
 }
 
 
@@ -142,7 +141,7 @@ header {
 	border-radius: 9px;
 	opacity: 0.85;
 	text-align: center;
-	
+
 }
 
 .nav-link {
@@ -187,9 +186,6 @@ header {
 	border-radius: 12px;
 }
 
-.button-hover {
-	background-color: #D97A59;
-}
 
 .cta-button {
 	width: 24px;
@@ -371,21 +367,49 @@ header {
 /* ----FOOTER---- */
 
 .footer {
-	color: #F8F6F3;
+	padding: 56px 0 32px 0;
 }
 
+.footer-contact {
+  display: grid;
+  gap: 18px;
+}
+
+.footer-heading {
+  color: #F8F6F3;
+  font-size: 16px;   
+  margin-bottom: 12px;
+}
+
+.footer-contact-text {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  color: #F8F6F3;
+  margin: 0;
+  font-size: 14px;
+  line-height: 145%;
+}
+
+.footer-icon {
+  width: 32px;
+  height: 32px;
+  flex: 0 0 32px;
+  margin-top: 2px;
+}
 
 .footer-links {
+	font-size: 16px;
 	line-height: 2;
 	color: #F8F6F3;
 	text-decoration: none;
+	 margin-bottom: 10px;
 }
 
 .footer-text {
 	margin-top: 48px;
 	text-align: center;
 	color: #F8F6F3;
-	font-size: 14px;
 	padding-top: 24px;
 }
 
