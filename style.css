@@ -71,7 +71,7 @@ p {
 	line-height: 145%;
 	margin-bottom: 18px;
 }
-}
+
 
 
 /* ----TEXT LAYOUT---- */
@@ -197,7 +197,7 @@ header {
 
 
 .hero-img {
-	background-image: url(images/index hero.png); /
+	background-image: url(images/index hero.png);
 	background-size: cover;
 	background-position: center;
 	height: 753px;
@@ -224,7 +224,7 @@ header {
 	max-width: 1064px;
 	padding: 50px 30px;
 	border-radius: 18px;
-	background: ##0C301E;
+	background: #0C301E;
 	z-index: 2;
 }
 
@@ -232,6 +232,8 @@ header {
 
 .service-row {
 	margin-top: 48px;
+	margin-left: -120px;
+	margin-right: 0px;
 }
 
 .service-img-wrap {
@@ -246,7 +248,7 @@ header {
 	margin-left: -120px; 
 }
 
-.service-row-reverse {
+.service-row-left {
 	margin-left: 0px;
 	margin-right: -120px;
 }
@@ -261,18 +263,18 @@ header {
 
 .service-card-sky { 
 	background-color: #AFC8F6; 
-	opacity:50%;
+	opacity:0.5;
 }
 
 .service-card-marigold { 
 	background-color: #E8C500; 
-	opacity: 50%;
+	opacity: 0.5;
 }
 
 
 .service-card-ocean { 
 	background-color: #83BBC4; 
-	opacity: 50%;
+	opacity: 0.5;
 }
 
 
@@ -364,7 +366,7 @@ header {
 		font-size: 32px; 
 	}
 
-	.menu { 
+	.navigation { 
 		display: none; 
 	}
 
