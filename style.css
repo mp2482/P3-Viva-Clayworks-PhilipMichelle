@@ -247,6 +247,15 @@ header {
 	z-index: 2;
 }
 
+
+.story-img {
+	background-image: url(images/story-hero.png);
+	background-size: cover;
+	background-position: center;
+	height: 753px;
+	overflow: hidden;
+	position: relative;
+} 
 /* ----SERVICES---- */
 
 .service-row {
@@ -459,7 +468,6 @@ header {
 
 
 	.hero-img { 
-
 		height: 460px; 
 	}
 
