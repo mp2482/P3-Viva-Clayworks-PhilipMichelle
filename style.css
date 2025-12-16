@@ -187,7 +187,9 @@ header {
 	background-color: #D97A59;
 }
             
-
+.position-relative {
+ 	position: relative;
+}
 
 /* ----HERO---- */
 
@@ -218,8 +220,7 @@ header {
 
 .hero-card {
 	position: absolute;
-	left: 50%;
-	top: 50%;
+	text-align: center;
 	width: 88%;
 	max-width: 1064px;
 	padding: 50px 30px;
