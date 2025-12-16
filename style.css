@@ -427,7 +427,7 @@ header {
 .timeline-img {
 	display: block;
 	width: 100%;
-	height: auto;
+	height: 80%;
 	min-height: 800px;
 	object-fit: contain;
 }
