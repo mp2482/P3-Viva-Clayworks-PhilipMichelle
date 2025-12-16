@@ -70,8 +70,8 @@ p {
 	font-size: 20px;
 	line-height: 145%;
 	margin-bottom: 18px;
+	text-align: center;
 }
-
 
 
 /* ----TEXT LAYOUT---- */
@@ -88,6 +88,12 @@ p {
 	list-style: none;
 	padding-left: 0px;
 	margin: 0px;
+}
+
+
+/* ----POSITIONING---- */
+.position-relative {
+ 	position: relative;
 }
 
 
@@ -186,10 +192,13 @@ header {
 .button-hover {
 	background-color: #D97A59;
 }
-            
-.position-relative {
- 	position: relative;
+
+.cta-button {
+	width: 24px;
+	height: 24px;
+	display: block;
 }
+            
 
 /* ----HERO---- */
 
@@ -199,7 +208,7 @@ header {
 
 
 .hero-img {
-	background-image: url(images/index hero.png);
+	background-image: url(images/index-hero.png);
 	background-size: cover;
 	background-position: center;
 	height: 753px;
@@ -220,12 +229,14 @@ header {
 
 .hero-card {
 	position: absolute;
-	text-align: center;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);	
 	width: 88%;
 	max-width: 1064px;
 	padding: 50px 30px;
 	border-radius: 18px;
-	background: #0C301E;
+	background: rgba(12, 48, 30, 0.85);
 	z-index: 2;
 }
 
@@ -233,8 +244,6 @@ header {
 
 .service-row {
 	margin-top: 48px;
-	margin-left: -120px;
-	margin-right: 0px;
 }
 
 .service-img-wrap {
@@ -255,10 +264,6 @@ header {
 }
 
 
-.service-card {
-	margin-left: 0px;
-	margin-right: -120px;
-}
 
 
 
@@ -287,6 +292,10 @@ header {
 
 /* ----MARKET---- */
 
+.market {
+	background-color: #EFE7DC;
+}
+
 .market-title {
 	margin-bottom: 10px;
 	text-decoration: underline;
@@ -295,6 +304,29 @@ header {
 .market-wrap {
 	margin-top: 30px;
 }
+
+.left-arrow {
+	position: absolute;
+	top: 50%;
+	left: -60px;
+	transform: translateY(-50%);
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	z-index: 10;
+}
+
+.right-arrow {
+	position: absolute;
+	top: 50%;
+	right: -60px;
+	transform: translateY(-50%);
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	z-index: 10;
+}
+
 
 .market-gallery {
 	display: flex;
