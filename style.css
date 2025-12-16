@@ -229,3 +229,527 @@ nav ul {
 		top: 56%;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+ <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'PT Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: #efe7dc;
+            position: relative;
+            width: 1280px;
+            height: 4113px;
+            margin: 0 auto;
+        }
+
+        .navigation {
+            position: absolute;
+            background-color: #0c301e;
+            height: 120px;
+            left: 0;
+            overflow: hidden;
+            top: 0;
+            width: 1280px;
+        }
+
+        .background-forest{
+            position: absolute;
+            background-color: #3c3c3c;
+            height: 66px;
+            left: 444px;
+            opacity: 0.69;
+            border-radius: 9px;
+            top: 27px;
+            width: 728px;
+        }
+
+        .logo {
+            position: absolute;
+            height: 96px;
+            left: 52px;
+            top: 12px;
+            width: 83px;
+        }
+
+        .logo-text {
+            position: absolute;
+            font-family: 'Gochi Hand', cursive;
+            top: 47px;
+            left: 19px;
+            line-height: 1.45;
+            font-style: normal;
+            color: #651d21;
+            font-size: 28px;
+            letter-spacing: 1.96px;
+            white-space: nowrap;
+        }
+
+        .nav-menu {
+            position: absolute;
+            display: flex;
+            font-family: 'PT Sans', sans-serif;
+            height: 23px;
+            align-items: center;
+            justify-content: space-between;
+            line-height: 1.45;
+            left: 460px;
+            font-style: normal;
+            padding: 0 20px;
+            color: #f8f6f3;
+            font-size: 24px;
+            white-space: nowrap;
+            top: 48px;
+            letter-spacing: -0.12px;
+            width: 696px;
+        }
+
+        .home-text {
+            position: absolute;
+            font-family: 'PT Sans', sans-serif;
+            line-height: 1.45;
+            left: 64px;
+            font-style: normal;
+            font-size: 20px;
+            white-space: nowrap;
+            color: white;
+            top: 153px;
+        }
+
+        .hero-image {
+            position: absolute;
+            height: 753px;
+            left: 0;
+            top: 117px;
+            width: 1280px;
+        }
+
+        .hero-image img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: 50% 50%;
+            pointer-events: none;
+        }
+
+        .hero-overlay-bg {
+            position: absolute;
+            background-color: rgba(53, 75, 64, 0.4);
+            height: 560px;
+            left: 108px;
+            opacity: 0.96;
+            border-radius: 18px;
+            top: 216px;
+            width: 1064px;
+        }
+
+        .hero-subtitle {
+            position: absolute;
+            font-family: 'PT Sans', sans-serif;
+            height: 54px;
+            line-height: 1.45;
+            left: 370px;
+            font-style: normal;
+            color: #f8f6f3;
+            font-size: 40px;
+            top: 509px;
+            width: 539px;
+        }
+
+        .hero-title {
+            position: absolute;
+            font-family: 'Gochi Hand', cursive;
+            height: 100.726px;
+            line-height: 1.45;
+            left: 304px;
+            font-style: normal;
+            color: #f8f6f3;
+            font-size: 75px;
+            top: 375.87px;
+            width: 828.812px;
+        }
+
+        .cta-button {
+            position: absolute;
+            background: linear-gradient(to right, #8e4228, #d97a59);
+            display: flex;
+            height: 60.99px;
+            align-items: center;
+            justify-content: center;
+            left: 527px;
+            padding: 14px 29px;
+            border-radius: 13px;
+            box-shadow: 7px 8px 8.2px 0px rgba(0, 0, 0, 0.25);
+            top: 642.93px;
+            width: 284px;
+            cursor: pointer;
+        }
+
+        .cta-button-text {
+            font-family: 'PT Sans', sans-serif;
+            font-weight: 700;
+            line-height: 1.45;
+            font-style: normal;
+            color: #f8f8f8;
+            font-size: 29px;
+            white-space: nowrap;
+            margin-right: 10px;
+        }
+
+        .cta-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 41px;
+            height: 41px;
+            transform: rotate(90deg);
+        }
+
+        .heading-large {
+            position: absolute;
+            font-family: 'Gochi Hand', cursive;
+            line-height: 1.45;
+            font-style: normal;
+            color: #3c2f2f;
+            font-size: 50px;
+            white-space: nowrap;
+        }
+
+        .mission-heading {
+            left: 450px;
+            top: 937px;
+        }
+
+        .mission-text {
+            position: absolute;
+            font-family: 'PT Sans', sans-serif;
+            line-height: 1.45;
+            left: 121px;
+            font-style: normal;
+            color: #514943;
+            font-size: 20px;
+            top: 1052px;
+            width: 1061px;
+        }
+
+        .services-heading {
+            left: 522px;
+            top: 1326px;
+            color: #333;
+        }
+
+        .service-image {
+            position: absolute;
+            overflow: hidden;
+        }
+
+        .service-image img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: 50% 50%;
+        }
+
+        .service-card {
+            position: absolute;
+            box-shadow: 0px 11px 10.7px 2px rgba(0, 0, 0, 0.24);
+        }
+
+        .service-card-1 {
+            background-color: rgba(175, 200, 246, 0.5);
+            height: 266px;
+            left: 519px;
+            top: 1516px;
+            width: 769px;
+        }
+
+        .service-card-2 {
+            background-color: rgba(232, 197, 0, 0.5);
+            height: 266px;
+            left: 0;
+            top: 1996px;
+            width: 748.86px;
+        }
+
+        .service-card-3 {
+            background-color: rgba(131, 184, 196, 0.5);
+            height: 266px;
+            left: 522px;
+            top: 2503px;
+            width: 758px;
+        }
+
+        .service-content {
+            position: absolute;
+            font-style: normal;
+        }
+
+        .service-title {
+            font-family: 'PT Sans', sans-serif;
+            font-weight: 700;
+            font-size: 24px;
+            color: #1a1a1a;
+            letter-spacing: -0.48px;
+            margin-bottom: 30px;
+        }
+
+        .service-description {
+            font-family: 'PT Sans', sans-serif;
+            font-size: 16px;
+            color: #3f3833;
+            letter-spacing: -0.08px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .service-link {
+            font-family: 'PT Sans', sans-serif;
+            font-size: 16px;
+            color: black;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        .market-heading {
+            left: 451px;
+            top: 2956px;
+            color: #1e1e1e;
+        }
+
+        .market-card {
+            position: absolute;
+            height: 587px;
+            box-shadow: 3px 10px 62.2px 0px rgba(0, 0, 0, 0.25);
+            width: 297px;
+        }
+
+        .market-card-bg {
+            position: absolute;
+            background-color: #f8f6f3;
+            border: 1px solid #c26a4b;
+            height: 217px;
+            left: 2px;
+            opacity: 0.73;
+            border-bottom-left-radius: 18px;
+            border-bottom-right-radius: 18px;
+            top: 383px;
+            width: 342px;
+        }
+
+        .market-card-image {
+            position: absolute;
+            height: 383px;
+            left: 2px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            top: 0;
+            width: 342px;
+            overflow: hidden;
+        }
+
+        .market-card-image.small {
+            width: 316px;
+        }
+
+        .market-card-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: 50% 50%;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+
+        .market-card-title {
+            position: absolute;
+            font-family: 'PT Sans', sans-serif;
+            line-height: 1.45;
+            font-style: normal;
+            color: #3c2f2f;
+            font-size: 29px;
+            text-align: center;
+            white-space: nowrap;
+            text-decoration: underline;
+        }
+
+        .market-card-description {
+            position: absolute;
+            font-family: 'PT Sans', sans-serif;
+            line-height: 1.45;
+            font-style: normal;
+            color: #5c524a;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .market-more-button {
+            position: absolute;
+            background-color: white;
+            height: 42px;
+            border-radius: 13px;
+            width: 188px;
+            border: 1px solid #c26a4b;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 7px 8px 8.2px 0px rgba(0, 0, 0, 0.25);
+            display: flex;
+            align-items: center;
+            padding-left: 52px;
+            cursor: pointer;
+        }
+
+        .market-more-button-text {
+            font-family: 'PT Sans', sans-serif;
+            font-size: 20px;
+            color: #c26a4b;
+            margin-right: 15px;
+        }
+
+        .market-more-icon {
+            width: 29px;
+            height: 29px;
+            transform: rotate(90deg);
+        }
+
+        .left-arrow {
+            position: absolute;
+            left: 7px;
+            top: 3268px;
+        }
+
+        .right-arrow {
+            position: absolute;
+            right: 62px;
+            top: 3268px;
+        }
+
+        .footer {
+            position: absolute;
+            background-color: #0c301e;
+            height: 351px;
+            left: 0;
+            overflow: hidden;
+            top: 3762px;
+            width: 1280px;
+        }
+
+        .footer-icon {
+            position: absolute;
+            width: 43px;
+            height: 43px;
+            left: 103px;
+        }
+
+        .footer-text {
+            position: absolute;
+            font-family: 'PT Sans', sans-serif;
+            line-height: 1.45;
+            left: 207px;
+            font-style: normal;
+            font-size: 20px;
+            color: white;
+            letter-spacing: -0.1px;
+        }
+
+        .footer-menu {
+            position: absolute;
+            font-family: 'PT Sans', sans-serif;
+            font-weight: 700;
+            display: flex;
+            justify-content: space-between;
+            line-height: 1.45;
+            left: 567px;
+            font-style: normal;
+            font-size: 20px;
+            color: white;
+            top: 51px;
+            letter-spacing: -0.1px;
+            width: 626px;
+        }
+
+        .footer-links {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+            font-family: 'PT Sans', sans-serif;
+            line-height: 1.45;
+            font-style: normal;
+            font-size: 16px;
+            color: white;
+            top: 99px;
+            letter-spacing: -0.08px;
+        }
+
+        .footer-copyright {
+            position: absolute;
+            display: flex;
+            gap: 12px;
+            font-family: 'PT Sans', sans-serif;
+            line-height: 1.4;
+            left: 77px;
+            font-style: normal;
+            font-size: 12px;
+            white-space: nowrap;
+            color: white;
+            top: 296px;
+        }
+
+        svg {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------RESTART----------*/
+
+/* -----TEXT MODIFIERS------ */
+
+.title {
+  font-family: "Gochi Hand", cursive;
+  color: #F8F6F3
+  font-size: 75px;
+  font-weight: 400;
+  font-style: normal;
+  position: absolute;
+}
+
+
+
+ 
+            
+            
+            
+            
+            
