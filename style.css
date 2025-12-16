@@ -122,6 +122,7 @@ header {
 .logo {
 	width: 83px;
 	display: block;
+	align-items: flex-start;
 }
 
 
