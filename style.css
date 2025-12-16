@@ -259,8 +259,7 @@ header {
 }
 
 .service-row-left {
-	margin-left: 0px;
-	
+	margin-left: -120px; 
 }
 
 
