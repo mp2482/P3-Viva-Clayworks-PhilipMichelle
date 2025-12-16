@@ -190,6 +190,11 @@ header {
 	border-radius: 12px;
 }
 
+.button-large {
+	font-size: 29px;
+	padding: 14px 29px;
+	gap: 20px;
+}
 
 .cta-button {
 	width: 24px;
@@ -219,23 +224,17 @@ header {
 	position: absolute;
 	top: 18px;
 	left: 18px;
-	text-decoration: none;
 	z-index: 3;
-	padding: 20px 16px;
-  	list-style: none;
-  	display: inline-flex;
-  	margin: 0;
-  padding: 0;
-
-  display: flex;
-  gap: 8px;
+	display: flex;
+	gap: 8px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 
 .breadcrumb-li {
   	font-size: 18px;
   	color: #F8F6F3;
-  	padding-right: 5px;
-  	padding-left: 5px;
 }
 
 
@@ -264,7 +263,7 @@ header {
 }
 
 
-.story-img {
+.story-hero-img {
 	background-image: url(images/story-hero.png);
 	background-size: cover;
 	background-position: center;
@@ -272,6 +271,7 @@ header {
 	overflow: hidden;
 	position: relative;
 } 
+
 /* ----SERVICES---- */
 
 .service-row {
@@ -399,6 +399,93 @@ header {
 	color: #C26A4B;
 	background: #ffffff;
 	box-shadow: 0px 4px 4px rgba(0,0,0,0.15);
+}
+
+
+/* ----TIMELINE---- */
+.timeline {
+	background-color: #EFE7DC;
+	padding-top: 100px;
+	padding-bottom: 120px;
+}
+
+.timeline-wrap {
+	margin-top: 80px;
+	position: relative;
+}
+
+.timeline-line {
+	position: absolute;
+	left: 50%;
+	top: 0;
+	transform: translateX(-50%);
+	width: 90px;
+	height: 100%;
+	z-index: 1;
+}
+
+.timeline-img {
+	display: block;
+	width: 100%;
+	height: auto;
+	min-height: 800px;
+	object-fit: contain;
+}
+
+.timeline-item {
+	position: relative;
+	margin-bottom: 120px;
+	display: flex;
+	align-items: flex-start;
+	gap: 80px;
+	z-index: 2;
+}
+
+.timeline-right {
+	justify-content: flex-start;
+	padding-left: 150px;
+	padding-right: 50px;
+}
+
+.timeline-left {
+	justify-content: flex-end;
+	padding-right: 150px;
+	padding-left: 50px;
+	text-align: right;
+}
+
+.timeline-content {
+	max-width: 560px;
+	flex: 1;
+}
+
+.timeline-number {
+	font-size: 24px;
+	font-weight: 700;
+	color: #3C3C3C;
+	margin-bottom: 16px;
+	line-height: 1.5;
+}
+
+.timeline-desc {
+	font-size: 24px;
+	line-height: 1.5;
+	color: #1E1E1E;
+	margin: 0;
+}
+
+
+.timeline-image-left {
+	width: 401px;
+	height: 354px;
+	position: absolute;
+	left: 8%;
+	overflow: hidden;
+	border-radius: 8px;
+}
+
+.timeline-image {
+	align-items: center;
 }
 
 
