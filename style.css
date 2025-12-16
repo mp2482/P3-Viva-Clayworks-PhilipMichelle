@@ -329,7 +329,7 @@ header {
 .market-gallery {
 	display: flex;
 	gap: 32px;
-	overflow: hidden; /* matches your “carousel look” */
+	overflow: hidden; 
 	padding: 10px 0px;
 }
 
@@ -373,6 +373,24 @@ header {
 
 /* ----FOOTER---- */
 
+.footer {
+	color: #F8F6F3;
+}
+
+
+.footer-links {
+	line-height: 2;
+	color: #F8F6F3;
+	text-decoration: none;
+}
+
+.footer-text {
+	margin-top: 48px;
+	text-align: center;
+	color: #F8F6F3;
+	font-size: 14px;
+	padding-top: 24px;
+}
 
 
 
