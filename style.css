@@ -112,7 +112,7 @@ p {
 /* ----NAVIGATION---- */
 
 header {
-	padding: 16px 4%;
+	padding: 16px 0px;
 }
 
 .nav-wrap {
@@ -511,4 +511,8 @@ header {
 	}
 
 
-            
+  
+
+
+
+
