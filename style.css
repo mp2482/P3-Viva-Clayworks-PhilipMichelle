@@ -87,6 +87,7 @@ p {
 	list-style: none;
 	padding-left: 0px;
 	margin: 0px;
+	color: #F8F6F3;
 }
 
 
@@ -408,7 +409,7 @@ header {
 
 .footer-text {
 	margin-top: 48px;
-	text-align: center;
+	text-align: flex-end;
 	color: #F8F6F3;
 	padding-top: 24px;
 }
