@@ -77,6 +77,8 @@ p {
 
 .text-center { 
 	text-align: center; 
+	align-items: center;
+	justify-content: center;
 }
 
 .text-white { 
@@ -218,10 +220,15 @@ header {
 	top: 18px;
 	left: 18px;
 	text-decoration: none;
-	z-index: 2;
+	z-index: 3;
 	padding: 20px 16px;
   	list-style: none;
   	display: inline-flex;
+  	margin: 0;
+  padding: 0;
+
+  display: flex;
+  gap: 8px;
 }
 
 .breadcrumb-li {
@@ -239,12 +246,21 @@ header {
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);	
+
 	width: 88%;
+	height: 65%;
 	max-width: 1064px;
+	min-height: 560px;
 	padding: 50px 30px;
 	border-radius: 18px;
-	background: rgba(12, 48, 30, 0.85);
+	background: rgba(12, 48, 30, 0.5);
 	z-index: 2;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;         
+  	align-items: center;             
+  	gap: 18px;
 }
 
 
